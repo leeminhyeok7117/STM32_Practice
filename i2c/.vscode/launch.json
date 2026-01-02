@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "i2c",
+            "cwd": "${workspaceFolder}",
+            
+            // [중요 1] 빌드된 파일 위치 (CMake가 만든 .elf 파일)
+            // 만약 경로 에러가 나면 /Debug 부분을 지워보세요.
+            "executable": "${workspaceFolder}/build/Debug/i2c.elf",
+            
+            "request": "launch",
+            "type": "cortex-debug",
+            
+            // [중요 2] 아까 에러났던 부분 (오타 나면 안 됩니다)
+            "servertype": "openocd",
+            
+            "device": "STM32F446RE",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f4x.cfg"
+            ],
+            
+            // [중요 3] 우분투용 GDB 경로
+            "gdbPath": "/usr/bin/gdb-multiarch",
+            
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "STM32F446RE Debug_led",
+            "cwd": "${workspaceFolder}",
+            
+            // [중요] CMake 자동 경로 대신, 직접 경로를 지정했습니다. (더 확실함)
+            // 만약 build 폴더 안에 Debug 폴더가 없다면 /Debug를 지우세요.
+            "executable": "${workspaceFolder}/build/Debug/led_practice.elf",
+            
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "device": "STM32F446RE",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f4x.cfg"
+            ],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none",
+            
+            // 아까 추가하신 GDB 경로
+            "gdbPath": "/usr/bin/gdb-multiarch"
+        }
+    ]
+}

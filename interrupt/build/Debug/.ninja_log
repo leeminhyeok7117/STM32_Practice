@@ -1,0 +1,22 @@
+# ninja log v5
+2	182	1766907772092768228	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj	cdc27e192b3fa44f
+2	63	1766907771981765016	CMakeFiles/interrupt.dir/Core/Src/syscalls.c.obj	85fb9293f8a35c94
+1	183	1766907772101768489	CMakeFiles/interrupt.dir/Core/Src/stm32f4xx_hal_msp.c.obj	88d006ffe1e32404
+1	202	1766907772120769038	CMakeFiles/interrupt.dir/Core/Src/stm32f4xx_it.c.obj	f190200f636cbe04
+2	212	1766907772130769328	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj	247847bd63f6ce51
+53	199	1766907772118768980	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj	604105643495bd01
+3	232	1766907772150769906	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj	e4e942abf7118ef7
+3	190	1766907772109768720	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj	f75c684283ee7974
+3	179	1766907772097768373	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj	e5a6c1ec6d50e87e
+1	211	1766907772129769299	CMakeFiles/interrupt.dir/Core/Src/main.c.obj	5a5cb07f3d358648
+11	187	1766907772105768604	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj	b5953e4cecf46821
+2	216	1766907772134769443	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj	a7ad80171e17ff9d
+4	180	1766907772098768402	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj	c98d53170a1029c2
+9	219	1766907772137769530	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj	d0a296f1d41538ba
+2	28	1766907771945763975	CMakeFiles/interrupt.dir/startup_stm32f446xx.s.obj	d1814b4c534cc482
+2	53	1766907771966764583	CMakeFiles/interrupt.dir/Core/Src/sysmem.c.obj	7b98f1ed3c83f735
+5	195	1766907772113768836	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj	e84bdddab5aaaec2
+28	203	1766907772122769096	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj	8f7a410c90e53f52
+232	283	1766907772202771411	interrupt.elf	7d42b3352648a19d
+3	185	1766907772103768546	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj	a3fac96a293c6f50
+2	232	1766907772151769935	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj	5e0bc655c011c65a
